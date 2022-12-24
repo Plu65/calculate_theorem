@@ -52,71 +52,71 @@ python app.py
 '''
 
 ##使用說明
-*基本操作
-    *幾乎所有的操作都只要按template上的按鍵即可執行
-    *在開始時只需要輸入隨便一段文字即可開啟對話
-    *只要輸入的文字不符合皆會跳回到初始階段
+- 基本操作
+    - 幾乎所有的操作都只要按template上的按鍵即可執行
+    - 在開始時只需要輸入隨便一段文字即可開啟對話
+    - 只要輸入的文字不符合皆會跳回到初始階段
 
-*流程
-    *剛開始在頁面中跟她打招呼就會顯示
+- 流程
+    - 剛開始在頁面中跟她打招呼就會顯示
     ###顯示招呼介面
     <p align=center>
         <img src="img/decision.jpg">
     </p>
-    *按下顯示狀態後就會顯示
+    - 按下顯示狀態後就會顯示
     <p align=center>
         <img src="img/show_situation.jpg">
     </p>
-    *按下互動會顯示
+    - 按下互動會顯示
     <p align=center>
         <img src="img/interaction.jpg">
     </p>
     接著便可以選擇要做什麼互動
-    *按下"吃東西"會跳到要吃哪一餐的介面，可以選擇現在是吃哪一餐
+    - 按下"吃東西"會跳到要吃哪一餐的介面，可以選擇現在是吃哪一餐
     <p align=center>
         <img src="img/choose_eat.jpg">
     </p>
-    *按下任意一餐後會跳出linebot想吃什麼東西，並會增加飽食度，可以提供使用者餐點的參考
+    - 按下任意一餐後會跳出linebot想吃什麼東西，並會增加飽食度，可以提供使用者餐點的參考
     <p align=center>
         <img src="img/eat.jpg">
     </p>
-    *按下"喝東西"會跳出選擇要喝甚麼的介面，按下後會跳出Linebot對於這個選擇的想法，選擇不同的飲料會對linebot的飲水度跟幸福度產生不同的影響
+    - 按下"喝東西"會跳出選擇要喝甚麼的介面，按下後會跳出Linebot對於這個選擇的想法，選擇不同的飲料會對linebot的飲水度跟幸福度產生不同的影響
     <p align=center>
         <img src="img/choose_drink.jpg">
     </p>
-    *在按"下去睡覺"的按鈕後會看到linebot進入睡覺模式，下面會有可以叫Linebot起床的按鈕
+    - 在按"下去睡覺"的按鈕後會看到linebot進入睡覺模式，下面會有可以叫Linebot起床的按鈕
     <p align=center>
         <img src="img/drink.jpg">
     </p>
-    *在按下"玩遊戲吧"的按鈕會跳出要玩哪一種遊戲的按鈕，目前有猜拳跟猜大小兩種遊戲
+    - 在按下"玩遊戲吧"的按鈕會跳出要玩哪一種遊戲的按鈕，目前有猜拳跟猜大小兩種遊戲
     <p align=center>
         <img src="img/choose_play.jpg">
     </p>
-    *按下猜拳後會跳出選擇要出什麼拳的介面
+    - 按下猜拳後會跳出選擇要出什麼拳的介面
     <p align=center>
         <img src="img/shoot.jpg">
     </p>
-    *按下一種後Linebot會隨機出一種拳並告訴結果，結果會影響linebot的幸福值
+    - 按下一種後Linebot會隨機出一種拳並告訴結果，結果會影響linebot的幸福值
     <p align=center>
         <img src="img/shoot_result.jpg">
     </p>
-    *按下猜大小後會跳出要猜大、猜小、猜豹子三種選項
+    - 按下猜大小後會跳出要猜大、猜小、猜豹子三種選項
     <p align=center>
         <img src="img/shake.jpg">
     </p>
-    *按下任一選項後linebot會告訴結果並影響linebot的幸福值
+    - 按下任一選項後linebot會告訴結果並影響linebot的幸福值
     <p align=center>
         <img src="img/shake_result.jpg">
     </p>
-    *按下找點樂子的按鈕後會跳出看youtube的介面
+    - 按下找點樂子的按鈕後會跳出看youtube的介面
     <p align=center>
         <img src="img/youtube.jpg">
     </p>
-    *按下youtube按鍵後linebot會詢問要看什麼
+    - 按下youtube按鍵後linebot會詢問要看什麼
     <p align=center>
         <img src="img/to_search.jpg">
     </p>
-    *輸入想看什麼東西後等待幾秒讓linebot去找尋資料，最後會顯示查詢結果的前十筆資料
+    - 輸入想看什麼東西後等待幾秒讓linebot去找尋資料，最後會顯示查詢結果的前十筆資料
     <p align=center>
         <img src="img/search.jpg">
     </p>
