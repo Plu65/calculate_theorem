@@ -19,11 +19,13 @@ python 3.11.1
 '''sh
 pip install -r requirement.txt
 '''
+
 若graphviz或pygraphviz安裝失敗則先去graphviz下載graphviz執行檔並執行 
 接著到終端機執行以下指令
 '''sh
 pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphviz\include" --global-option="-LC:\Program Files\Graphviz\lib" pygraphviz
 '''
+
 接著重新安裝pygraphviz即可
 
 3. 從`.env.sample`產生出一個`.env`，並填入以下四個資訊
@@ -42,10 +44,12 @@ ngrok config add-authtoken +你的token
 '''sh
 ngrok config add-authtoken
 '''
+
 3.執行ngrok
 '''sh
 ngrok http 8080
 '''
+
 4.執行程式
 '''sh
 python app.py
