@@ -16,15 +16,15 @@ python 3.11.1
 
 ##使用教學
 1.pip install -r requirement.txt
-'''sh
+```sh
 pip install -r requirement.txt
-'''
+```
 
 若graphviz或pygraphviz安裝失敗則先去graphviz下載graphviz執行檔並執行 
 接著到終端機執行以下指令
-'''sh
+```sh
 pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphviz\include" --global-option="-LC:\Program Files\Graphviz\lib" pygraphviz
-'''
+```
 
 接著重新安裝pygraphviz即可
 
@@ -41,19 +41,19 @@ pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphv
 到ngrok的網站註冊帳戶並下載安裝檔執行
 接著在ngrok的終端機上執行
 ngrok config add-authtoken +你的token
-'''sh
+```sh
 ngrok config add-authtoken
-'''
+```
 
 3.執行ngrok
-'''sh
+```sh
 ngrok http 8080
-'''
+```
 
 4.執行程式
-'''sh
+```sh
 python app.py
-'''
+```
 
 ## 使用說明
 - 基本操作
