@@ -1,6 +1,0 @@
-line-bot-sdk
-flask
-gunicorn
-transitions
-graphviz
-pygraphviz
