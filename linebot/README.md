@@ -1,27 +1,27 @@
-#Line company
+# Line company
 
-##前言
+## 前言
 在冷冷的天氣裡是否少了點溫暖，在吃飯時是不是少了一點陪伴，因此想設計一個可以陪伴使用者的linechatbot，在吃飯的時候一起吃飯看影片，在睡覺時可以一起睡覺，甚至是無聊時可以玩點遊戲，根據古早味電玩-電子雞的基礎，這款linechatbot便誕生出來
 
-##構想
+## 構想
 根據電子雞的基礎先給予基礎的各項值，並會根據互動的種類在各項值產生變化，也會有不同的回覆。還需要有遊戲的功能讓使用者無聊時殺時間用。另外還需要能推薦影片的功能讓使用者在吃飯或是無聊時可以看點影片度過時間，讓使用者有人一起看影片的感覺
 
-##環境
+## 環境
 Windows 10 64its
 python 3.11.1
 
-##技術
+## 技術
 -selenium
     -用來進行youtube爬蟲
 
 ##使用教學
 1.pip install -r requirement.txt
-'''+shell
+'''sh
 pip install -r requirement.txt
 '''
 若graphviz或pygraphviz安裝失敗則先去graphviz下載graphviz執行檔並執行 
 接著到終端機執行以下指令
-'''+shell
+'''sh
 pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphviz\include" --global-option="-LC:\Program Files\Graphviz\lib" pygraphviz
 '''
 接著重新安裝pygraphviz即可
@@ -39,19 +39,19 @@ pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphv
 到ngrok的網站註冊帳戶並下載安裝檔執行
 接著在ngrok的終端機上執行
 ngrok config add-authtoken +你的token
-'''+shell
+'''sh
 ngrok config add-authtoken
 '''
 3.執行ngrok
-'''+shell
+'''sh
 ngrok http 8080
 '''
 4.執行程式
-'''+shell
+'''sh
 python app.py
 '''
 
-##使用說明
+## 使用說明
 - 基本操作
     - 幾乎所有的操作都只要按template上的按鍵即可執行
     - 在開始時只需要輸入隨便一段文字即可開啟對話
@@ -135,7 +135,7 @@ python app.py
         <img src="img/search.jpg">
     </p>
 
-##fsm-chart
+## fsm-chart
 <p align=center>
     <img src="img/fsm.jpg">
 </p>
